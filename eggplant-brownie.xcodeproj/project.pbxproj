@@ -55,15 +55,55 @@
 		59722AA125FA5AE90093DEC2 /* eggplant-brownie */ = {
 			isa = PBXGroup;
 			children = (
+				59C0D38825FBDC4700E53217 /* Infra */,
+				59C0D38725FBD80B00E53217 /* Controller */,
+				59C0D38625FBD7ED00E53217 /* View */,
+				59C0D38525FBD7E500E53217 /* Model */,
 				59722AA225FA5AE90093DEC2 /* AppDelegate.swift */,
-				59722AA425FA5AE90093DEC2 /* ViewController.swift */,
-				59722AA625FA5AE90093DEC2 /* Main.storyboard */,
-				59722AA925FA5AEC0093DEC2 /* Assets.xcassets */,
 				59C0D38425FBAC4600E53217 /* MyPlayground.playground */,
-				59722AAB25FA5AEC0093DEC2 /* LaunchScreen.storyboard */,
 				59722AAE25FA5AEC0093DEC2 /* Info.plist */,
 			);
 			path = "eggplant-brownie";
+			sourceTree = "<group>";
+		};
+		59C0D38525FBD7E500E53217 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		59C0D38625FBD7ED00E53217 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59722AAB25FA5AEC0093DEC2 /* LaunchScreen.storyboard */,
+				59722AA625FA5AE90093DEC2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		59C0D38725FBD80B00E53217 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				59722AA425FA5AE90093DEC2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		59C0D38825FBDC4700E53217 /* Infra */ = {
+			isa = PBXGroup;
+			children = (
+				59C0D38925FBDC5D00E53217 /* Assets */,
+			);
+			path = Infra;
+			sourceTree = "<group>";
+		};
+		59C0D38925FBDC5D00E53217 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				59722AA925FA5AEC0093DEC2 /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
