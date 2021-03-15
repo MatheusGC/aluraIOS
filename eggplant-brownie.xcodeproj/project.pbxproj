@@ -12,6 +12,8 @@
 		59722AA825FA5AE90093DEC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59722AA625FA5AE90093DEC2 /* Main.storyboard */; };
 		59722AAA25FA5AEC0093DEC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59722AA925FA5AEC0093DEC2 /* Assets.xcassets */; };
 		59722AAD25FA5AEC0093DEC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59722AAB25FA5AEC0093DEC2 /* LaunchScreen.storyboard */; };
+		59D56C2625FFACB4006D3AEB /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D56C2525FFACB4006D3AEB /* Refeicao.swift */; };
+		59D56C2825FFAD73006D3AEB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D56C2725FFAD73006D3AEB /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,11 @@
 		59722AAC25FA5AEC0093DEC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59722AAE25FA5AEC0093DEC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59C0D38425FBAC4600E53217 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = "../../../Library/Autosave Information/MyPlayground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		59D56C2225FF89B1006D3AEB /* SecondPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = SecondPlayground.playground; path = "../../../Library/Autosave Information/SecondPlayground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		59D56C2325FF994E006D3AEB /* ThirdPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = ThirdPlayground.playground; path = "../../Library/Autosave Information/ThirdPlayground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		59D56C2425FF9951006D3AEB /* ThirdPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ThirdPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		59D56C2525FFACB4006D3AEB /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
+		59D56C2725FFAD73006D3AEB /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,8 +46,10 @@
 		59722A9625FA5AE90093DEC2 = {
 			isa = PBXGroup;
 			children = (
+				59D56C2325FF994E006D3AEB /* ThirdPlayground.playground */,
 				59722AA125FA5AE90093DEC2 /* eggplant-brownie */,
 				59722AA025FA5AE90093DEC2 /* Products */,
+				59C0D38525FBD7E500E53217 /* Model */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +67,9 @@
 				59C0D38825FBDC4700E53217 /* Infra */,
 				59C0D38725FBD80B00E53217 /* Controller */,
 				59C0D38625FBD7ED00E53217 /* View */,
-				59C0D38525FBD7E500E53217 /* Model */,
 				59722AA225FA5AE90093DEC2 /* AppDelegate.swift */,
+				59D56C2425FF9951006D3AEB /* ThirdPlayground.playground */,
+				59D56C2225FF89B1006D3AEB /* SecondPlayground.playground */,
 				59C0D38425FBAC4600E53217 /* MyPlayground.playground */,
 				59722AAE25FA5AEC0093DEC2 /* Info.plist */,
 			);
@@ -69,6 +79,8 @@
 		59C0D38525FBD7E500E53217 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				59D56C2525FFACB4006D3AEB /* Refeicao.swift */,
+				59D56C2725FFAD73006D3AEB /* Item.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,7 +189,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59D56C2825FFAD73006D3AEB /* Item.swift in Sources */,
 				59722AA525FA5AE90093DEC2 /* ViewController.swift in Sources */,
+				59D56C2625FFACB4006D3AEB /* Refeicao.swift in Sources */,
 				59722AA325FA5AE90093DEC2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
