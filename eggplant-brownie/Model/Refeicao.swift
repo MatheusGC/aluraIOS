@@ -12,12 +12,13 @@ class Refeicao: NSObject {
     //MARK: - atributos
     let nome:String
     let felicidade:Int
-    let itens:Array<Item> = []
+    var itens:Array<Item> = []
     
     //MARK: - construtor
-    init(nome: String, felicidade: Int){
+    init(nome: String, felicidade: Int, itens:[Item]=[]){
         self.nome = nome
         self.felicidade = felicidade
+        self.itens = itens
     }
     
     //MARK - metodos
@@ -29,5 +30,15 @@ class Refeicao: NSObject {
         }
         
         return total
+    }
+    
+    func detalhes()-> String{
+        var mensagem = "Felicidade: \(felicidade)"
+        
+        for item in itens {
+            mensagem+=", \(item.nome) - calorias: \(item.calorias)"
+        }
+        
+        return mensagem
     }
 }
