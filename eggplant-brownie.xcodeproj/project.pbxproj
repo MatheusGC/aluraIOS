@@ -16,6 +16,8 @@
 		5981C78E2600C43200657A55 /* AdicionarItensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5981C78C2600C43200657A55 /* AdicionarItensViewController.swift */; };
 		5981C78F2600C43200657A55 /* AdicionarItensViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5981C78D2600C43200657A55 /* AdicionarItensViewController.xib */; };
 		59A870E02602317E00E84F8A /* RemoveRefeicaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A870DF2602317E00E84F8A /* RemoveRefeicaoViewController.swift */; };
+		59BE9E342602747E00F58A2D /* RefeicaoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BE9E332602747E00F58A2D /* RefeicaoDao.swift */; };
+		59BE9E3626027B1E00F58A2D /* ItemDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BE9E3526027B1E00F58A2D /* ItemDao.swift */; };
 		59D56C2625FFACB4006D3AEB /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D56C2525FFACB4006D3AEB /* Refeicao.swift */; };
 		59D56C2825FFAD73006D3AEB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D56C2725FFAD73006D3AEB /* Item.swift */; };
 		59D56C6626001D94006D3AEB /* RefeicoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D56C6526001D94006D3AEB /* RefeicoesTableViewController.swift */; };
@@ -33,6 +35,8 @@
 		5981C78C2600C43200657A55 /* AdicionarItensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarItensViewController.swift; sourceTree = "<group>"; };
 		5981C78D2600C43200657A55 /* AdicionarItensViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdicionarItensViewController.xib; sourceTree = "<group>"; };
 		59A870DF2602317E00E84F8A /* RemoveRefeicaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveRefeicaoViewController.swift; sourceTree = "<group>"; };
+		59BE9E332602747E00F58A2D /* RefeicaoDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicaoDao.swift; sourceTree = "<group>"; };
+		59BE9E3526027B1E00F58A2D /* ItemDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDao.swift; sourceTree = "<group>"; };
 		59C0D38425FBAC4600E53217 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = "../../../Library/Autosave Information/MyPlayground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		59D56C2225FF89B1006D3AEB /* SecondPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = SecondPlayground.playground; path = "../../../Library/Autosave Information/SecondPlayground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		59D56C2325FF994E006D3AEB /* ThirdPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = ThirdPlayground.playground; path = "../../Library/Autosave Information/ThirdPlayground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -92,6 +96,8 @@
 				59D56C2525FFACB4006D3AEB /* Refeicao.swift */,
 				59D56C2725FFAD73006D3AEB /* Item.swift */,
 				597936E6260208D50056F164 /* Alerta.swift */,
+				59BE9E332602747E00F58A2D /* RefeicaoDao.swift */,
+				59BE9E3526027B1E00F58A2D /* ItemDao.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -208,7 +214,9 @@
 				59A870E02602317E00E84F8A /* RemoveRefeicaoViewController.swift in Sources */,
 				59D56C2825FFAD73006D3AEB /* Item.swift in Sources */,
 				5981C78E2600C43200657A55 /* AdicionarItensViewController.swift in Sources */,
+				59BE9E342602747E00F58A2D /* RefeicaoDao.swift in Sources */,
 				59722AA525FA5AE90093DEC2 /* ViewController.swift in Sources */,
+				59BE9E3626027B1E00F58A2D /* ItemDao.swift in Sources */,
 				59D56C6626001D94006D3AEB /* RefeicoesTableViewController.swift in Sources */,
 				59D56C2625FFACB4006D3AEB /* Refeicao.swift in Sources */,
 				59722AA325FA5AE90093DEC2 /* AppDelegate.swift in Sources */,
