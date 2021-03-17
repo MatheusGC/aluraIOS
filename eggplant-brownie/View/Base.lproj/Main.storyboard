@@ -76,7 +76,7 @@
                     </view>
                     <connections>
                         <outlet property="felicidadeTextField" destination="ewu-ss-Vv1" id="0Wi-gV-wRQ"/>
-                        <outlet property="itensTableView" destination="WQJ-db-37M" id="KQl-oh-xna"/>
+                        <outlet property="itensTableView" destination="WQJ-db-37M" id="VSu-G2-Yrf"/>
                         <outlet property="nomeTextField" destination="V0b-QD-mxe" id="Zf7-KK-qPq"/>
                     </connections>
                 </viewController>
